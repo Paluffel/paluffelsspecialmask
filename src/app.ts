@@ -59,7 +59,7 @@ export default class HelloWorld {
 			if (!this.attachedItems[user.id]) {
 				// If item for user does not exist, create it and add to list.
 				this.attachedItems[user.id] = Actor.CreateFromLibrary(this.context, {
-					resourceId: "artifact: 1447113085801202077",
+					resourceId: "artifact: 1447231871116116890",
 					actor: {
 						name: 'Invert',
 						attachment: {
