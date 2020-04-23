@@ -38,15 +38,16 @@ export default class HelloWorld {
         console.log(user);
         if (user.name === "Paluffel"){
             Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1447231871116116890",
+                resourceId: "artifact: 1446622705561370720",
                 actor: {
-                    name: 'Specal Paul',
+                    name: 'Test Helmet',
                     attachment: {
+                        userId: user.id,
                         attachPoint: 'head'
                     },
                     transform: {local: {
-                        position: { x: 0, y: 0.065, z: 0.055 },
-                        scale: { x: 0.93, y: 0.93, z: 0.93},
+                       							position: { x: 0, y: 0.065, z: 0.055 },
+							scale: { x: 0.93, y: 0.93, z: 0.93},
                     }}
                 }
             });
