@@ -40,7 +40,7 @@ export default class HelloWorld {
             Actor.CreateFromLibrary(this.context, {
                 resourceId: "artifact: 1447231871116116890",
                 actor: {
-                    name: 'Test Helmet',
+                    name: 'Specal Paul',
                     exclusiveToUser: user.id,
                     attachment: {
                         attachPoint: 'head'
