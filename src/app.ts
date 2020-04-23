@@ -1,3 +1,4 @@
+/*!
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
@@ -35,21 +36,23 @@ export default class HelloWorld {
         // Code to run when a user joins.
         console.log(`User joined: ${user.name}`);
         console.log(user);
-        if (user.name === "Tr4sh P4nda"){
+        if (user.name === "Paluffel"){
             Actor.CreateFromLibrary(this.context, {
                 resourceId: "artifact: 1447231871116116890",
                 actor: {
-                    name: 'Specal Paul',
+                    name: 'Test Helmet',
+                    exclusiveToUser: user.id,
                     attachment: {
-                        userId: user.id,
                         attachPoint: 'head'
                     },
                     transform: {local: {
-			position: { x: 0, y: 0.065, z: 0.055 },
-			scale: { x: 0.93, y: 0.93, z: 0.93},
+                        position: { x: 0, y: 0.065, z: 0.055 },
+                        scale: { x: 0.93, y: 0.93, z: 0.93},
                     }}
                 }
             });
         }
     }
 }
+
+
