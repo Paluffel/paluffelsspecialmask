@@ -41,7 +41,6 @@ export default class HelloWorld {
                 resourceId: "artifact: 1447231871116116890",
                 actor: {
                     name: 'Specal Paul',
-                    exclusiveToUser: user.id,
                     attachment: {
                         attachPoint: 'head'
                     },
